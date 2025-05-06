@@ -1,7 +1,7 @@
 // src/components/MenuCategory.jsx
 import React from 'react';
 import MenuItem from './menuitem';
-import './MenuCategory.css'; // We'll create this CSS file soon
+import './menucategory.css'; // We'll create this CSS file soon
 
 function MenuCategory({ category }) {
   return (
