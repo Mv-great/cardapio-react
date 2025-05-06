@@ -1,6 +1,6 @@
 // src/components/MenuItem.js
 import React from 'react';
-import './MenuItem.css'; // We'll create this CSS file soon
+import './menuitem.css'; // We'll create this CSS file soon
 
 function MenuItem({ item }) {
   return (
