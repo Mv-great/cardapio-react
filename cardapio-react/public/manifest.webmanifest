@@ -1,0 +1,14 @@
+{
+  "name": "Cardápio do Restaurante",
+  "short_name": "Cardápio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "description": "Cardápio do restaurante com categorias e itens, feito em React.",
+  "icons": [
+    { "src": "/vite.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
+
+
