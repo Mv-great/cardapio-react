@@ -1,11 +1,50 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="cardapio do restaurante">
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cardapio React</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Cardápio digital interativo com pratos deliciosos, entradas, pratos principais, sobremesas e bebidas. Menu online responsivo para uma experiência gastronômica única. Peça já!" />
+    <meta name="keywords" content="cardápio digital, menu online, restaurante, pratos, comida, pedidos online, cardápio interativo" />
+    <meta name="author" content="Restaurante Digital" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Cardápio Digital Restaurante | Menu Online Interativo" />
+    <meta property="og:description" content="Explore nosso cardápio digital com pratos deliciosos, entradas, pratos principais, sobremesas e bebidas. Menu online responsivo para uma experiência gastronômica única." />
+    <meta property="og:url" content="https://cardapio-react.vercel.app" />
+    <meta property="og:site_name" content="Restaurante Digital" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Cardápio Digital Restaurante | Menu Online Interativo" />
+    <meta name="twitter:description" content="Explore nosso cardápio digital com pratos deliciosos, entradas, pratos principais, sobremesas e bebidas." />
+    
+    <meta name="theme-color" content="#0ea5e9" />
+    <link rel="icon" href="/vite.svg" />
+    <link rel="apple-touch-icon" href="/vite.svg" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="canonical" href="https://cardapio-react.vercel.app" />
+    
+    <title>Cardápio Digital Restaurante | Menu Online Interativo</title>
+    
+    <!-- Schema.org JSON-LD para Restaurante -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Restaurante Digital",
+      "description": "Restaurante com cardápio digital interativo oferecendo pratos deliciosos, entradas, pratos principais, sobremesas e bebidas",
+      "url": "https://cardapio-react.vercel.app",
+      "servesCuisine": "Internacional",
+      "priceRange": "$$",
+      "hasMenu": {
+        "@type": "Menu",
+        "name": "Cardápio Principal",
+        "description": "Menu completo com entradas, pratos principais, sobremesas e bebidas"
+      }
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>
